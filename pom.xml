@@ -9,7 +9,16 @@
   <version>0.8-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Multi Chapter Parent Project</name>
+  <properties>
+    <github.global.server>github</github.global.server>
+  </properties> 
   <modules>
     <module>simple-parent</module>
   </modules>
+  <scm>
+        <url>https://bitbucket.org/rciovati/my-repo/src</url>
+        <connection>scm:git:ssh://git@github.com:sanjeevonline/ch-multi.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:sanjeevonline/ch-multi.git</developerConnection>
+        <tag>HEAD</tag>
+   </scm>
 </project>
