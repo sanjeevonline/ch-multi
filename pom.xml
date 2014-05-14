@@ -13,9 +13,9 @@
     <module>simple-parent</module>
   </modules>
   <scm>
-        <url>https://bitbucket.org/rciovati/my-repo/src</url>
-        <connection>scm:git:ssh://git@github.com:sanjeevonline/ch-multi.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:sanjeevonline/ch-multi.git</developerConnection>
+        <url>https://github.com/sanjeevonline/ch-multi</url>
+        <connection>scm:git:git://github.com:sanjeevonline/ch-multi.git</connection>
+        <developerConnection>scm:git:git://github.com:sanjeevonline/ch-multi.git</developerConnection>
         <tag>parent-0.8</tag>
    </scm>
 </project>
