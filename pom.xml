@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                               http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.mavenbook.multi</groupId>
-  <artifactId>parent1</artifactId>
-  <version>0.8-SNAPSHOT</version>
+  <artifactId>parent</artifactId>
+  <version>0.9-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Multi Chapter Parent Project</name>
   <properties>
@@ -16,6 +16,5 @@
         <url>https://github.com/sanjeevonline/ch-multi</url>
         <connection>scm:git:https://github.com/sanjeevonline/ch-multi.git</connection>
         <developerConnection>scm:git:https://github.com/sanjeevonline/ch-multi.git</developerConnection>
-        <tag>parent-patch-0.8</tag>
    </scm>
 </project>
