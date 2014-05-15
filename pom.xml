@@ -17,4 +17,18 @@
         <connection>scm:git:https://github.com/sanjeevonline/ch-multi.git</connection>
         <developerConnection>scm:git:https://github.com/sanjeevonline/ch-multi.git</developerConnection>
    </scm>
+   <distributionManagement>
+	<!-- use the following if you're not using a snapshot version. -->
+	<repository>
+		<id>nexus</id>
+		<name>RepositoryProxy</name>
+		<url>scp://localhost:8081/nexus/content/repositories/releases</url>
+	</repository>
+	<!-- use the following if you ARE using a snapshot version. -->
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>RepositoryProxy</name>
+		<url>scp://localhost:8081/nexus/content/repositories/snapshots</url>
+	</snapshotRepository>
+  </distributionManagement>
 </project>
