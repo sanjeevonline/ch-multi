@@ -4,7 +4,7 @@
   <parent>
   	<groupId>org.sonatype.mavenbook.multi</groupId>
   	<artifactId>parent</artifactId>
-  	<version>0.14</version>
+  	<version>0.15-SNAPSHOT</version>
   </parent>
   <artifactId>simple-parent</artifactId>
   <packaging>pom</packaging>
